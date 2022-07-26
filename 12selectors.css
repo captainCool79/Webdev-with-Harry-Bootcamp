@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        .Redcolo{
+            color: red;
+            background-color: yellow;
+        }
+        #Bsdk{
+            color: blue;
+            background-color: aquamarine;
+        }
+        footer,span{
+            color: brown;
+            background-color: aliceblue;
+        }
+        /* this */
+    </style>
+</head>
+<body>
+    <h3>CSS selectors</h3>
+    <p class="Redcolo">bla bla vla jkbogsedfk.w</p>
+    <p id="Bsdk">A quick of brown fox jumps over a lazy dog.</p>
+    <p class="ourClass">Sunday is our fucking holiday.</p>
+
+    <div>
+        <p>sacjkbsdvknjad</p>
+        <span>This is our span.</span>
+    </div>
+    <footer>This is our footer.</footer>
+    <!-- this -->
+</body>
+</html>
