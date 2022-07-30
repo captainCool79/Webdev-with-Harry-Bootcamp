@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+        /* universal selector */
+        .{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 2px solid rgb(23, 23, 193);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-sizing: border-box;
+                }
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <!-- box sizing is good. -->
+        <h3>This is the heading.</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas dicta, corporis ipsa eos natus animi consequatur eaque tempore accusamus laudantium ea repellat atque blanditiis fuga voluptates? Dignissimos, itaque illo minus nostrum sit delectus praesentium. Sunt adipisci commodi reiciendis asperiores.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is the heading.</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas dicta, corporis ipsa eos natus animi consequatur eaque tempore accusamus laudantium ea repellat atque blanditiis fuga voluptates? Dignissimos, itaque illo minus nostrum sit delectus praesentium. Sunt adipisci commodi reiciendis asperiores.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is the heading.</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas dicta, corporis ipsa eos natus animi consequatur eaque tempore accusamus laudantium ea repellat atque blanditiis fuga voluptates? Dignissimos, itaque illo minus nostrum sit delectus praesentium. Sunt adipisci commodi reiciendis asperiores.</p>
+    </div>
+ </body>
+ </html>
