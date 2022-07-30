@@ -14,7 +14,7 @@
             font-family: 'Ubuntu', sans-serif;
         }
         .container{
-             width: 10 50px;
+             width: 1050px;
              border: 3px solid purple;
              margin:33px auto;
              background-color: rgb(218, 182, 150);
@@ -56,7 +56,7 @@
         <h1>Welcome to my Store</h1>
         <div id="fruits" class="items">
             <h3>Fruits</h3>
-            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorum labore ipsam, quidem eveniet fugiat! Facere quae reiciendis a obcaecati officia voluptates voluptatem nulla possimus aperiam, explicabo debitis blanditiis Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia incidunt ut quidem atque eligendi blanditiis, praesentium assumenda ratione aperiam quisquam fuga voluptatibus animi a dolore laborum nam consequuntur neque accusantium. Illo at ipsum nihil</p>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorum labore ipsam, quidem eveniet fugiat! Facere quae reiciendis a obcaecati officia voluptates voluptatem nulla possimus aperiam, explicabo debitis blanditiis Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia incidunt ut quidem atque eligendi blanditiis, praesentium assumenda ratione aperiam quisquam fuga voluptatibus animi a dolore laborum nam consequuntur neque accusantium. Illo at ipsum nihil!</p>
         </div>
 
         <div id="computer" class="items">
