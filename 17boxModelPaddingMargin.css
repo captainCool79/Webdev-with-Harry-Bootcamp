@@ -8,7 +8,7 @@
 
     <style>
         /* universal selector */
-        .{
+        *{
             box-sizing: border-box;
         }
         .container{
