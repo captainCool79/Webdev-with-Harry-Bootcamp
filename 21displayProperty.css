@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property </title>
+    <style>
+        header{
+            margin: auto;
+            border: 2px solid red;
+            width: 300px;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            display: block;
+        }
+        h3{
+            font-style: italic;
+            width: 270px;
+            margin: 0px;
+            text-align: center;
+        }
+        .box{
+            border: 4px solid black;
+            background-color: grey;
+            width: 33%;
+            margin: 4px auto;
+            padding: 23px;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <h3>Welcome to my Blog</h3> 
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit suscipit ullam ipsam, aut error, molestiae sapiente mollitia, at unde delectus deserunt eum magnam soluta? Ea repellendus nesciunt dignissimos hic accusantium et adipisci odit.</p>
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit suscipit ullam ipsam, aut error, molestiae sapiente mollitia, at unde delectus deserunt eum magnam soluta? Ea repellendus nesciunt dignissimos hic accusantium et adipisci odit.</p>
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit suscipit ullam ipsam, aut error, molestiae sapiente mollitia, at unde delectus deserunt eum magnam soluta? Ea repellendus nesciunt dignissimos hic accusantium et adipisci odit.</p>
+        </div>
+    </div>
+</body>
+</html>
