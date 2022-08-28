@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Design / Size units</title>
+   <style>
+      .container{
+         font-size: 10px;
+         /* height: 400px; */
+         height: 100vh;     /*(viewport height-take full height of screen)*/
+         /* width: 344px; */
+         width: 100vw;      /*(viewport width-take full width of the screen)*/
+         border: 2px solid green;
+      }
+      html{
+         /* font-size: 25px; */
+      }
+      h1{
+         text-align: center;
+      }
+      #first{
+         /*em will be relative to parent tag(in this case container)*/
+         /* font-size: 3em;   3 times the font size of container 
+         padding: 3em;        3 times fontsize of first  */
+      }
+      #second{
+         /* rem will be relative to main html tag   */
+         /* font-size: 3rem;    3 times font size of of html
+         padding: 3rem;         3 times font size of second*/
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <h1 id="first">This is a first heading.</h1>
+      <h1 id="second">This is a second heading.</h1>
+      <h1 id="third">This is a third heading.</h1>
+      <!-- <h1 id="fourth">This is a heading.</h1> -->
+   </div>
+</body>
+</html>
