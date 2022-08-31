@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .cards{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+
+            /* FirstandSecond-Shadow, Third- makes blur, Fourth-spread shadow */
+            /* box-shadow:13px 10px green ; */
+            /* box-shadow:-13px -10px green ; */
+            /* box-shadow:13px 10px 10px green ; */
+            /* box-shadow:-13px -10px 10px green ; */
+            box-shadow:13px 10px 10px 3px green ;
+        }
+        h2{
+            text-shadow: 1px 1px red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cards" id="cards-1">
+            <h2>This is Java course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi tenetur, quis voluptatum cum reprehenderit pariatur qui dolore magni delectus iste assumenda ut quidem suscipit iure minus error mollitia eos eligendi quibusdam id! Quaerat?</p>
+        </div>
+        <div class="cards" id="cards-2">
+            <h2>This is CSS course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi tenetur, quis voluptatum cum reprehenderit pariatur qui dolore magni delectus iste assumenda ut quidem suscipit iure minus error mollitia eos eligendi quibusdam id! Quaerat?</p>
+        </div>
+        <div class="cards" id="cards-3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi tenetur, quis voluptatum cum reprehenderit pariatur qui dolore magni delectus iste assumenda ut quidem suscipit iure minus error mollitia eos eligendi quibusdam id! Quaerat?</p>
+        </div>
+    </div>
+</body>
+</html>
