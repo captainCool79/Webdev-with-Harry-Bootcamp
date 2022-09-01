@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container{
+            background-color: greenyellow;
+        }
+        .box{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation-name: Aditya;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-iteration-count: 10;
+            animation-fill-mode: alternate;
+            animation-timing-function: ease-in;
+            animation-delay: 3s;
+            animation-direction: reverse; */
+            animation-name: Aditya2;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+
+            /* Shorthand for animation: 
+            animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+        }
+        /* @keyframes Aditya{
+            from{
+                width: 200px;
+            }
+            to{
+                width: 800px;
+            } 
+        } */
+        @keyframes Aditya2{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 0px;
+                left: 250px;
+            }
+            50%{
+                top: 250px;
+                left: 250px;
+            }
+            75%{
+                top: 250px;
+                left: 0px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box.
+        </div>
+    </div>
+</body>
+</html>
