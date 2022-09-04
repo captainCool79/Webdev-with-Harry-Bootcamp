@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Food Delivery Sevice in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1225px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo4.png" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-id">Services</a></li>
+            <li class="item"><a href="#client-section">Our Client</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo velit corrupti. </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipi corrupti. </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section class="services-container" id="services-id">
+        <h1 class="services-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img1b.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eveniet maiores.
+                    Doloribus accusamus illum laudantium iusto quisquam! Doloremque officiis voluptas incidunt iste
+                    aliquid at, reprehenderit deleniti, fugit ipsam harum sequi? At consequatur deleniti vero!</p>
+            </div>
+            <div class="box">
+                <img src="img2a.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eveniet maiores.
+                    Doloribus accusamus illum laudantium iusto quisquam! Doloremque officiis voluptas incidunt iste
+                    aliquid at, reprehenderit deleniti, fugit ipsam harum sequi? At consequatur deleniti vero!</p>
+            </div>
+            <div class="box">
+                <img src="img4.webp" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit am consectetur adipisicing elit. Labore, eveniet maiores.
+                    Doloribus accusamus illum laudantium iusto quisquam! Doloremque officiis voluptas incidunt iste
+                    aliquid at, reprehenderit deleniti, fugit ipsam harum sequi? At consequatur deleniti vero!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="client1.png" alt="apple">
+            </div>
+            <div class="client-item">
+                <img src="client2.png" alt="microsoft">
+            </div>
+            <div class="client-item">
+                <img src="client3.png" alt="google">
+            </div>
+            <div class="client-item">
+                <img src="client4.png" alt="skype">
+            </div>
+            <div class="client-item">
+                <img src="client5.png" alt="hp">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Whatsapp number</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your Whatsapp number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter text here(min. 100 words)"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn1">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center foot1">
+            Copyright &copy;2022 MyOnlineMeal.com
+            <p>all rights reserved!</p> 
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!--style.css-->
+
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS Variable */
+:root{
+    --navbar-height:59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px; 
+    /* position: relative; */
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 1px 34px;
+    height: 80px;
+}
+
+#logo img{
+    margin: 4px 5px;
+    height:76px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;  
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.55;
+}
+
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem; 
+}
+
+#navbar ul li a{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 597px;
+}
+#home::before{
+    content: "";
+    background:url('../bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 683px;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding: 23px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Service Container */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown ;
+    padding: 34px;
+    margin: 3px 35px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+
+/* Clients Section */
+#client-section{
+    height: 399px;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    background: url('../bg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 0.35;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 124px;
+}
+.client-item{
+    padding: 5px;
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../bg3.jpg') no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.4rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn1{
+    padding: 1px 10px;
+    border: 2px solid black;
+    background-color: rgb(95, 95, 237);
+    border-radius: 6px;
+    color: rgb(34, 32, 32);
+    font-size: 1.4rem;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+}
+.btn1:hover{
+    color: black;
+    background-color: rgb(68, 68, 223);
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    height: 45px;
+    opacity: 0.9;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+/* Utility Classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 76px;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(164, 79, 79);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: brown;
+}
+
+.center{
+    text-align: center;
+}
+
+.services-primary{
+    font-size: 3.8rem;
+    padding: 38px;
+    height: 24px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+
+
+
+
+
+/*phone.css*/
+
+/* Navigation section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 9px;
+}
+#navbar ul{
+    padding: 10px;
+}
+
+#logo{
+    height: 64px ;
+}
+
+/* Home section */
+#home{
+    height: 280px;
+    padding: 3px 68px;
+}
+
+#home::before{
+    height: 441px;
+    
+}
+#home p{
+    font-size: 13px;
+}
+
+#home h1{
+    font-size: 40px;
+}
+
+
+/* Services section */
+#services{
+    flex-direction: column;
+    align-items: center;
+}
+#services .box{
+    width: 85%;
+    padding: 31px;
+    margin: 3px 16px;
+}
+.services-primary{
+    font-size: 2.6rem;
+}
+
+
+/* Clients section */
+#clients{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#client-section::before{
+    height: 31%;
+}
+#clients img{
+    height: 75px;
+}
+
+
+
+/* Contact us section */
+
+#contact-box form{
+    width: 70%;
+}
+
+/* Footer section */
+
+
+
+/* Utility section */
+.h-primary{
+    padding: 14px;
+    font-size: 2.6rem;
+}
+
+.h-secondary{
+    font-size: 1.7rem;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
